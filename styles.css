@@ -174,9 +174,7 @@ header a {
     align-items: center;
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 40px 100px;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 40px 50px;
     gap: 16px;
 }
 
