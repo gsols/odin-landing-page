@@ -108,17 +108,34 @@ header a {
 .cards-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+    padding: 0 100px;
+    justify-content: center;
 }
 
 .image{
     width: 200px;
     height: 200px;
     border: #3882f6 2px solid;
-    border-radius: 8px;
+    border-radius: 16px;
+    margin-bottom: 8px;
 }
 
-.description{
+.description p{
+    margin: 0;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.section-2 .description{
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.section-3 {
+
 }
 /* 
 @media (max-width: 1600px) {
