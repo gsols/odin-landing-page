@@ -1,4 +1,134 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
 }
 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    padding: 0 200px;
+}
+
+header a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.right-links {
+    display: flex;
+    gap: 28px;
+}
+
+.left-links a{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.right-links a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    gap: 40px;
+}
+
+.section-1 .left-container{
+    max-width: 600px;
+}
+
+.section-1 .right-container{
+    width: 800px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 .main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding-right: 50px;
+    margin: 0;
+}
+.section-1 button{
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.section-1 img{
+    width: 100px;
+    object-fit: contain;
+    rotate: 90deg;
+}
+
+
+.section-2 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-title {
+    margin: 36px 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border: #3882f6 2px solid;
+    border-radius: 8px;
+}
+
+.description{
+    flex-wrap: wrap;
+}
+/* 
+@media (max-width: 1600px) {
+    body {
+        padding: 0 300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding: 0 100px;
+    }
+} */
